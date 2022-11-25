@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .split {
+      height: auto;
+      width: 50%;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      overflow-x: hidden;
+      padding-top: 1%;
+    }
+
+    .left {
+      left: 0;
+      background-color: white;
+    }
+
+    .right {
+      right: 0;
+      background-color: white;
+    }
+
+    img {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100%;
+      height: auto;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="split left">
+    <button style="width: 100%; height:5%; border: none;">
+      <a href="/animal"><strong>Animal</strong>
+    </button>
+    <img src="\static\animal.jpg" alt="Animal">
+    <img src="\static\animal.jpg" alt="Animal">
+    <img src="\static\animal.jpg" alt="Animal">
+    <img src="\static\animal.jpg" alt="Animal">
+    <img src="\static\animal.jpg" alt="Animal">
+  </div>
+
+  <div class="split right img">
+    <button style="width: 100%; height:5%; border: none;">
+      <a href="/color"><strong>Colors</strong>
+    </button>
+    <img src="\static\colour.jpg" alt="Colors">
+    <img src="\static\colour.jpg" alt="Colors">
+    <img src="\static\colour.jpg" alt="Colors">
+    <img src="\static\colour.jpg" alt="Colors">
+    <img src="\static\colour.jpg" alt="Colors">
+  </div>
+
+</body>
+
+</html>
